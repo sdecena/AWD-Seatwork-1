@@ -119,5 +119,5 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Sample Title | Sample purpose would be here like this and this is the example of what it is | trykolang.com |
 | Landing Page GIF | Used for the landing page background. | https://ca.pinterest.com/pin/146718900340223137/ |
