@@ -40,10 +40,13 @@ header.feature1-header {
     display: flex;
     justify-content: center;
     padding: 0.7rem 0vw 0.7rem 30px;
-    background: rgb(9, 9, 9);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.7)),url(../img/header-porsche.jpg);
+    background: rgb(150, 0, 0);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.7));
     background-repeat: no-repeat;
     background-position: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    list-style: none;
 }
 
 
@@ -64,43 +67,13 @@ nav.header-navigation {
 
 .header-navigation .nav-design {
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: rgb(255, 255, 255);
     text-decoration: none;
 
 }
 
-.header-search-icon {
-    margin: 20px auto;
-    background: rgb(69, 69, 69);
-    height: 30px;
-    border-radius: 30px;
-    padding: 10px 20px;
-    margin-right: 20px;
-    display: flex;
-    align-items: center;
-    transition: 0.8s;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.356);
-}
 
-.header-search-icon:hover input {
-    width: 80px;
-    cursor: pointer;
-}
-
-.header-search-icon input {
-    background: transparent;
-    border: none;
-    outline: none;
-    width: 0px;
-    font-weight: 500;
-    font-size: 16px;
-    transition: 0.8s;
-}
-
-.header-search-icon li .fas {
-    color: black;
-}
 
 .header-navigation .nav-design {
     position: relative;
@@ -108,7 +81,7 @@ nav.header-navigation {
 }
 
 button.nav-design:hover {
-    color: rgb(149, 149, 149);
+    color: rgb(255, 255, 255);
     transition: all 200ms ease;
   }
 
@@ -128,7 +101,7 @@ button.nav-design:hover {
 
 .header-navigation .nav-design:hover::before {
     transform: scaleX(1.1);
-    background-color: rgb(149, 149, 149);
+    background-color: rgb(255, 255, 255);
 
   }
 
@@ -144,16 +117,162 @@ button.nav-design:hover {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 1.8rem;
-    font-weight: 600;
+    font-weight: 800;
     font-style: bold;
+    font-family: 'Zen Dots', cursive;
+    color: rgb(224, 204, 23);
+    text-shadow: 1px 1px 0 #ffffff, 
+               1px 2px 0 #000000,
+               1px 3px 0 #000000,
+               1px 4px 0 #000000,
+               1px 5px 0 #000000,
+               1px 6px 1px rgba(0,0,0,.1),
+               1px 0 5px rgba(0, 0, 0, 0.1),
+               1px 1px 3px rgba(0,0,0,.3),
+               1px 3px 5px rgba(0,0,0,.2),
+               1px 5px 10px rgba(0,0,0,.25),
+               1px 10px 10px rgba(0,0,0,.2),
+               1px 20px 20px rgba(0,0,0,.15);
+}
+
+
+.header-navigation .nav-design1:active {
+    color: rgb(255, 255, 255);
+
+}
+
+  /*Main*/
+
+  .main-content1 {
+    display: flex;
+    align-items: center; /* Vertically center boxes */
+    justify-content: space-evenly; /* Even spacing between boxes */
+    flex-direction: row; /* Boxes aligned in a row */
+    margin-top: 10rem; /* Add space from top */
+    background-color: rgb(50, 50, 50);
+    width: 100vw; /* Full width */
+    height: 20vh;
+}
+
+.box1, .box2, .box3, .box4 , .box5 {
+    background-color: rgba(5, 143, 255, 0.525); /* Red background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Optional for content inside boxes */
+    width: 200px; /* Set box width */
+    height: 150px; /* Set box height */
+    color: white; /* Text color */
+    font-size: 1.2rem; /* Font size for text */
+    border-radius: 10px; /* Rounded corners (optional) */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for style */
+
+    & h1 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    & h3 {
+        font-size: 1rem;
+        font-weight: 300;
+        text-align: center;
+    }
 }
 
 
 
 
 
-.header-navigation .nav-design1:active {
+
+
+
+
+
+  /*Footer*/
+.feature1-footer {
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.7)), url();
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icons-footer {
+
+    background-color: rgba(153, 205, 50, 0);
+
+
+}
+
+button.nav2-design {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 20vw;
+    font-weight: 300;
+    font-size: 1.5rem;
     color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
 
-  }
+button.nav2-design i {
+    color: white;
+    font-size: 1.5rem;
 
+}
+
+.navigation2-footer {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+    max-width: 1260px; /* Limit the width of the paragraph */
+    & h3 {
+        font-size: .9rem;
+        font-weight: 200;
+        cursor: pointer;
+    }
+}
+
+
+
+.navigation2-footer p {
+    transition: all 3100ms ease;
+}
+.navigation2-footer p:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px 4px rgb(255, 255, 255));
+}
+
+
+.navigation2-footer h3 {
+    margin-top: 40px;
+    transition: all 100ms ease;
+}
+.navigation2-footer h3:hover {
+    transform: scale(1.2);
+    font-style: italic;
+    font-weight: 400;
+}   
