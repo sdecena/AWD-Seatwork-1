@@ -4,7 +4,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/sdecena/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
@@ -20,7 +20,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=sdecena/AWD-Seatwork-1)
 
 [![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
 
@@ -50,6 +50,9 @@
     <li>
       <a href="#resources">Resources</a>
     </li>
+    <li>
+      <a href="#documentation">Documentation</a>
+    </li>
   </ol>
 </details>
 
@@ -59,19 +62,27 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+This project is a Car Rental Management System designed to manage up to 10 cars. Its purpose is to showcase the process of renting and vehicle and check the availability of each vehicle for the customer.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+Key Features:
+
+- Car Inventory Management
+- Rental Status
+- User Interface
+- Validation
+
+
+Technologies Used:
+
+- HTML
+- CSS
+- Javascript
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
+- Hover Animation
+- Functional Buttons
 - Transactional
 
 ### Technology
@@ -121,3 +132,13 @@ WD-ProjectName
 |-|-|-|
 | Sample Title | Sample purpose would be here like this and this is the example of what it is | trykolang.com |
 | Landing Page GIF | Used for the landing page background. | https://ca.pinterest.com/pin/146718900340223137/ |
+| Car 1 Image | Used for the Car 1 Image. | https://in.pinterest.com/pin/787567053576983703/ |
+| Car 2 Image | Used for the Car 2 Image. | https://toyotamakati.com.ph/vios/ |
+| Car 3 Image | Used for the Car 3 Image. | https://indianautosblog.com/honda-city-mugen-limited-edition-philippines-p110299 |
+| Car 4 Image | Used for the Car 4 Image. | https://www.topgear.com.ph/buyers-guide/cars/mitsubishi/mirage-g4 |
+| Car 5 Image | Used for the Car 5 Image | https://images.alphacoders.com/116/1162729.jpg |
+| Car 6 Image | Used for the Car 6 Image. | https://i.pinimg.com/736x/df/fa/ca/dffaca7e44fc143347b7765946e1148e.jpg |
+| Car 7 Image | Used for the Car 7 Image. | https://stock.adobe.com/ph/images/moscow-russia-june-2020-mercedes-amg-g-63-exclusive-edition-isolated-on-white-background-g-class-off-road-car-produced-by-mercedes-benz-3d-render/393358194 |
+| Car 8 Image | Used for the Car 8 Image. | https://www.bmw-m.id/model/44/bmw-m3-competition |
+| Car 9 Image | Used for the Car 9 Image. | https://imgcdn.zigwheels.ph/large/gallery/color/27/214/porsche_911-carrera-s_dark_blue_metallic.jpg |
+| Car 10 Image | Used for the Car 10 Image. | https://static0.carbuzzimages.com/wordpress/wp-content/uploads/gallery-images/original/805000/700/805702.jpg |
