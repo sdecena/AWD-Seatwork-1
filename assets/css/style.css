@@ -17,7 +17,7 @@ html, body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     playback: 1;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .landing-page {
