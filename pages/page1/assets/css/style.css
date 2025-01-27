@@ -187,7 +187,6 @@ button.nav-design:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 0px;
     background-color: rgb(21, 229, 244);
     background-image: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.167)),url(../img/main.jpg);
     background-repeat: no-repeat;
@@ -296,16 +295,42 @@ button.nav-design:hover {
     cursor: pointer;
     transition: all 100ms ease;
   }
-  
+
   .rent-button:hover {
     outline: 3px rgba(255, 255, 255, 0.827) solid;
     background-color: #006996;
   }
-  
 
+  .rent-button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #3b99cb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 100ms ease;
+  }
 
+  .rent-button:hover {
+    outline: 3px rgba(255, 255, 255, 0.827) solid;
+    background-color: #006996;
+  }
 
-
+  .unavailable-button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #666666;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 100ms ease;
+  }
 
 
 
@@ -341,7 +366,7 @@ button.nav-design:hover {
 
 }
 
-button.nav2-design {
+button.iconsDes {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -349,13 +374,13 @@ button.nav2-design {
     width: 20vw;
     font-weight: 300;
     font-size: 1.5rem;
-    color: rgba(255, 255, 255, 0);
+    background-color: rgba(153, 205, 50, 0);
     cursor: pointer;
     margin-bottom: 0rem;
     margin-top: 1rem;
 }
 
-button.nav2-design i {
+button.iconsDes i {
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
 
@@ -396,3 +421,7 @@ button.nav2-design i {
     font-style: italic;
     font-weight: 400;
 }   
+
+
+
+
