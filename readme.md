@@ -143,3 +143,5 @@ WD-ProjectName
 | Car 9 Image | Used for the Car 9 Image. | https://imgcdn.zigwheels.ph/large/gallery/color/27/214/porsche_911-carrera-s_dark_blue_metallic.jpg |
 | Car 10 Image | Used for the Car 10 Image. | https://static0.carbuzzimages.com/wordpress/wp-content/uploads/gallery-images/original/805000/700/805702.jpg |
 | Main Page Background | Used for the Background Image of the Main Page. | https://unsplash.com/photos/a-parking-lot-filled-with-lots-of-parked-cars-PMsrwEVDaag |
+| Javascript Event for Buttons | Used to trigger events on buttons whenever an action is done | https://stackoverflow.com/questions/70856440/addeventlistener-to-all-buttons-using-foreach |
+

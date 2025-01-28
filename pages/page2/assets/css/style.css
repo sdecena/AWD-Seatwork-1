@@ -29,7 +29,7 @@ body {
     height: 100VH;
     width: 100vw;
     background-color: rgba(0, 0, 0, 0);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.167)), url(../img/main.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.689), rgba(0, 0, 0, 0.347)), url(../img/main.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -47,7 +47,7 @@ header.feature1-header {
     justify-content: center;
     padding: 0.7rem 0vw 0.7rem 30px;
     background: rgba(0, 0, 0, 0);
-    background-image: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0)),url();
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.631)),url();
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -77,6 +77,7 @@ nav.header-navigation {
     font-weight: 600;
     font-size: 1rem;
     color: rgb(255, 255, 255);
+    text-shadow:1px 3px 10px rgb(196, 8, 8);
     text-decoration: none;
     position: relative;
     text-decoration: none;
@@ -127,16 +128,16 @@ button.nav-design:hover {
     font-style: bold;
     font-family: 'Zen Dots', cursive;
     color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 0 #ffffff,
+    text-shadow: 1px 1px 0 rgb(123, 7, 7),
                1px 2px 0 #000000,
                   1px 3px 0 #000000,
                1px 4px 0 #000000,
                1px 5px 0 #000000,
                1px 6px 1px rgba(0,0,0,.1),
                1px 0 5px rgba(0, 0, 0, 0.1),
-               1px 1px 3px rgb(255, 255, 255),
-               1px 3px 5px rgba(255, 255, 255, 0.737),
-               1px 5px 10px rgba(255, 255, 255, 0.457),
+               1px 1px 3px rgba(123, 7, 7, 0.61),
+               1px 3px 5px rgb(123, 7, 7),
+               1px 5px 10px rgb(123, 7, 7),
                1px 10px 10px rgba(0,0,0,.2),
                1px 20px 20px rgba(0,0,0,.15);
     transition: all 0.3s ease;
@@ -150,15 +151,15 @@ button.nav-design:hover {
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 0 #ffffff,
                1px 2px 0 #000000,
-                  1px 3px 0 #000000,
+                1px 3px 0 #000000,
                1px 4px 0 #000000,
                1px 5px 0 #000000,
                1px 6px 1px rgba(0,0,0,.1),
                1px 0 5px rgba(0, 0, 0, 0.1),
-               1px 1px 3px rgb(255, 255, 255),
-               1px 3px 5px rgb(255, 255, 255),
-               1px 5px 10px rgb(255, 255, 255),
-               1px 10px 10px rgba(255, 255, 255, 0.263),
+               1px 1px 3px rgb(123, 7, 7),
+               1px 3px 5px rgb(123, 7, 7),
+               1px 5px 10px rgb(123, 7, 7),
+               1px 10px 10px rgb(123, 7, 7),
                1px 20px 20px rgba(0,0,0,.15);
 }
 
@@ -184,8 +185,8 @@ button.nav-design:hover {
 
  /* Main Content */
 .main-content {
-    margin-top: 8rem;
-    background: rgba(0, 0, 0, 0.895);
+    margin-top: 9rem;
+    background: rgba(2, 2, 2, 0.817);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
@@ -218,7 +219,7 @@ main input[type="text"],
 main textarea {
     width: 100%;
     padding: 0.8rem;
-    border: 2px solid #00bcd4;
+    border: 2px solid #dab200;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.1);
     color: #fff;
@@ -233,13 +234,14 @@ main textarea::placeholder {
 main input:focus,
 main textarea:focus {
     outline: none;
-    border-color: #ff9800;
+    border-color: #ffffff;
 }
 
 main button {
-    background-color: #00bcd4;
+    background-color: #dab200;
     color: #fff;
     padding: 0.8rem 1.5rem;
+    margin-top: 1rem;
     border: none;
     border-radius: 5px;
     font-size: 1rem;
@@ -249,7 +251,7 @@ main button {
 }
 
 main button:hover {
-    background-color: #007a96;
+    background-color: #d69900;
 }
   /*Footer*/
 .feature1-footer {

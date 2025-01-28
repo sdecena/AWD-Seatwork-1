@@ -43,7 +43,7 @@ header.feature1-header {
     justify-content: center;
     padding: 0.7rem 0vw 0.7rem 30px;
     background: rgba(0, 0, 0, 0);
-    background-image: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0)),url();
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.631)),url();
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -72,21 +72,16 @@ nav.header-navigation {
     font-weight: 600;
     font-size: 1rem;
     color: rgb(255, 255, 255);
+    text-shadow:1px 3px 10px rgb(196, 8, 8);
     text-decoration: none;
 
 }
-
-
 
 .header-navigation .nav-design {
     position: relative;
     text-decoration: none;
 }
 
-button.nav-design:hover {
-    color: rgb(255, 255, 255);
-    transition: all 200ms ease;
-  }
 
 .header-navigation .nav-design::before {
     content: "";
@@ -125,16 +120,16 @@ button.nav-design:hover {
     font-style: bold;
     font-family: 'Zen Dots', cursive;
     color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 0 #ffffff,
+    text-shadow: 1px 1px 0 rgb(123, 7, 7),
                1px 2px 0 #000000,
                   1px 3px 0 #000000,
                1px 4px 0 #000000,
                1px 5px 0 #000000,
                1px 6px 1px rgba(0,0,0,.1),
                1px 0 5px rgba(0, 0, 0, 0.1),
-               1px 1px 3px rgb(255, 255, 255),
-               1px 3px 5px rgba(255, 255, 255, 0.737),
-               1px 5px 10px rgba(255, 255, 255, 0.457),
+               1px 1px 3px rgba(123, 7, 7, 0.61),
+               1px 3px 5px rgb(123, 7, 7),
+               1px 5px 10px rgb(123, 7, 7),
                1px 10px 10px rgba(0,0,0,.2),
                1px 20px 20px rgba(0,0,0,.15);
     transition: all 0.3s ease;
@@ -148,15 +143,15 @@ button.nav-design:hover {
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 0 #ffffff,
                1px 2px 0 #000000,
-                  1px 3px 0 #000000,
+                1px 3px 0 #000000,
                1px 4px 0 #000000,
                1px 5px 0 #000000,
                1px 6px 1px rgba(0,0,0,.1),
                1px 0 5px rgba(0, 0, 0, 0.1),
-               1px 1px 3px rgb(255, 255, 255),
-               1px 3px 5px rgb(255, 255, 255),
-               1px 5px 10px rgb(255, 255, 255),
-               1px 10px 10px rgba(255, 255, 255, 0.263),
+               1px 1px 3px rgb(123, 7, 7),
+               1px 3px 5px rgb(123, 7, 7),
+               1px 5px 10px rgb(123, 7, 7),
+               1px 10px 10px rgb(123, 7, 7),
                1px 20px 20px rgba(0,0,0,.15);
 }
 
@@ -165,7 +160,7 @@ button.nav-design:hover {
 
 .header-navigation .nav-design1:active {
     color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 0 rgb(238, 218, 38),
+    text-shadow: 1px 1px 0 rgb(0, 0, 0),
     1px 2px 0 rgb(238, 218, 38),
     1px 3px 0 #000000,
     1px 4px 0 #000000,
@@ -180,15 +175,15 @@ button.nav-design:hover {
 
 }
 
-  /*Main*/
 
+/*Main*/
 .main-box {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     background-color: rgb(21, 229, 244);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.167)),url(../img/main.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.689), rgba(0, 0, 0, 0.347)),url(../img/main.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -196,29 +191,53 @@ button.nav-design:hover {
 
 }
 
+.main-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Zen Dots', cursive;
+    font-style: italic;
+    text-shadow: 1px 1px 0 #000000,
+               1px 2px 0 #000000,
+                  1px 3px 0 #000000,
+               1px 4px 0 #000000,
+               1px 5px 0 #000000,
+               1px 6px 1px rgba(0,0,0,.1),
+               1px 0 5px rgba(0, 0, 0, 0.1),
+               1px 1px 3px rgb(255, 255, 255),
+               1px 3px 52px #dab200;
+    letter-spacing: 5px;
+    margin-top: -2rem;
+}
+
 .main-content1 {
     display: flex;
     align-items: center; /* Vertically center boxes */
     justify-content: space-evenly; /* Even spacing between boxes */
     flex-direction: row; /* Boxes aligned in a row */
-    margin-top: 0rem; /* Add space from top */
+    margin-top: 3rem; /* Add space from top */
     background-color: rgba(50, 50, 50, 0);
     width: 100vw; /* Full width */
     height: 20vh;
 }
 
 .box1, .box2, .box3, .box4 , .box5 {
-    background-color: rgb(38, 38, 38); /* Red background */
+    background-color: rgba(0, 0, 0, 0.785);
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column; /* Optional for content inside boxes */
-    width: 252px; /* Set box width */
-    height: 210px; /* Set box height */
-    color: white; /* Text color */
-    font-size: 1.2rem; /* Font size for text */
-    border-radius: 10px; /* Rounded corners (optional) */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for style */
+    flex-direction: column;
+    width: 255px;
+    height: 235px;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding-bottom: 11px;
 
 
@@ -229,7 +248,14 @@ button.nav-design:hover {
     }
 
     & h3 {
-        font-size: 1rem;
+        font-size: 1.2rem;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    & p {
+        font-size: 0.85rem;
         font-weight: 300;
         text-align: center;
     }
@@ -237,23 +263,23 @@ button.nav-design:hover {
 
   .main-content2 {
     display: flex;
-    align-items: center; /* Vertically center boxes */
-    justify-content: space-evenly; /* Even spacing between boxes */
-    flex-direction: row; /* Boxes aligned in a row */
-    margin-top: 6rem; /* Add space from top */
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 8rem;
     background-color: rgba(50, 50, 50, 0);
-    width: 100vw; /* Full width */
+    width: 100vw;
     height: 20vh;
 }
 
 .box6, .box7, .box8, .box9, .box10 {
-    background-color: rgb(38, 38, 38); /* Red background */
+    background-color: rgba(0, 0, 0, 0.785);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column; /* Optional for content inside boxes */
-    width: 250px; /* Set box width */
-    height: 210px; /* Set box height */
+    width: 255px; /* Set box width */
+    height: 235px; /* Set box height */
     color: white; /* Text color */
     font-size: 1.2rem; /* Font size for text */
     border-radius: 10px; /* Rounded corners (optional) */
@@ -267,10 +293,33 @@ button.nav-design:hover {
     }
 
     & h3 {
-        font-size: 1rem;
+        font-size: 1.2rem;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    & p {
+        font-size: 0.85rem;
         font-weight: 300;
         text-align: center;
     }
+}
+
+.box1:hover, 
+.box2:hover, 
+.box3:hover, 
+.box4:hover, 
+.box5:hover, 
+.box6:hover, 
+.box7:hover, 
+.box8:hover, 
+.box9:hover, 
+.box10:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(255, 255, 255, 0.596);
+    transition: all 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.785);
 }
 
 
@@ -281,12 +330,17 @@ button.nav-design:hover {
     margin: 10px 0;
     border-radius: 5px;
   }
-  
-  /* Add styles for rent buttons */
+
+
+  .rent-button:hover {
+    outline: 3px rgba(255, 255, 255, 0.827) solid;
+    background-color: #006996;
+  }
+
   .rent-button {
     margin-top: 10px;
     padding: 10px 15px;
-    background-color: #3b99cb;
+    background-color: #dab200;
     color: white;
     border: none;
     border-radius: 5px;
@@ -297,33 +351,15 @@ button.nav-design:hover {
   }
 
   .rent-button:hover {
-    outline: 3px rgba(255, 255, 255, 0.827) solid;
-    background-color: #006996;
-  }
-
-  .rent-button {
-    margin-top: 10px;
-    padding: 10px 15px;
-    background-color: #3b99cb;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 0.9rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 100ms ease;
-  }
-
-  .rent-button:hover {
-    outline: 3px rgba(255, 255, 255, 0.827) solid;
-    background-color: #006996;
+    outline: 3px rgb(255, 255, 255) solid;
+    background-color: #8d7300;
   }
 
   .unavailable-button {
     margin-top: 10px;
     padding: 10px 15px;
-    background-color: #666666;
-    color: rgb(0, 0, 0);
+    background-color: #530606;
+    color: rgb(255, 255, 255);
     border: none;
     border-radius: 5px;
     font-size: 0.9rem;
