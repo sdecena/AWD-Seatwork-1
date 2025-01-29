@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
         localStorage.setItem("userInfo", JSON.stringify(userInfoArray));
 
         setTimeout(function() {
-            window.location.href = "../page1/index.html";  // Redirect to page 1 after saving
+            window.location.href = "../RentPage/index.html";  // Redirect to page 1 after saving
         }, 500);
 
         // Show an alert to the user

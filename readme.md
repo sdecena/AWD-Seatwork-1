@@ -22,7 +22,7 @@
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 ![](https://visit-counter.vercel.app/counter.png?page=sdecena/AWD-Seatwork-1)
 
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
+
 
 ---
 
@@ -148,9 +148,15 @@ WD-ProjectName
 | Car 10 Image | Used for the Car 10 Image. | https://static0.carbuzzimages.com/wordpress/wp-content/uploads/gallery-images/original/805000/700/805702.jpg |
 | Main Page Background | Used for the Background Image of the Main Page. | https://unsplash.com/photos/a-parking-lot-filled-with-lots-of-parked-cars-PMsrwEVDaag |
 | Javascript Event for Buttons | Used to trigger events on buttons whenever an action is done | https://stackoverflow.com/questions/70856440/addeventlistener-to-all-buttons-using-foreach |
+|
 
 
+## Deployment Link
+https://sdecena.github.io/AWD-Seatwork-1/
 
+
+## WakaTime
+[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
 
 
 ## Documentation
