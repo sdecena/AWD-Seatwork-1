@@ -148,11 +148,13 @@ WD-ProjectName
 | Car 10 Image | Used for the Car 10 Image. | https://static0.carbuzzimages.com/wordpress/wp-content/uploads/gallery-images/original/805000/700/805702.jpg |
 | Main Page Background | Used for the Background Image of the Main Page. | https://unsplash.com/photos/a-parking-lot-filled-with-lots-of-parked-cars-PMsrwEVDaag |
 | Javascript Event for Buttons | Used to trigger events on buttons whenever an action is done | https://stackoverflow.com/questions/70856440/addeventlistener-to-all-buttons-using-foreach |
+| Javascript Array | Used for the array of rented cars | https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array |
 |
 
 
 ## Deployment Link
-https://sdecena.github.io/AWD-Seatwork-1/
+https://sdecena.github.io/AWD-Seatwork-1-2-DS-25/
+
 
 
 ## WakaTime
@@ -166,4 +168,4 @@ https://sdecena.github.io/AWD-Seatwork-1/
 - 01/26: Created the car rental page with the 10 cards of the vehicles. Also added animations on the rent button and hover for other elements.
 - 01/27: Added the customer information page that confirms the rental. Also implemented the javascript for the alerts and the local storage of the rented vehicles and user infos.
 - 01/28: Adjusted some of the javascript codes and the design of the website.
-- 01/29: Fixing some javascript errors and finishing README.
+- 01/29: Fix some javascript errors and finishing README.

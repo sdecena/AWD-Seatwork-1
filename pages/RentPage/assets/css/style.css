@@ -323,7 +323,7 @@ nav.header-navigation {
 }
 
 
-/* Add styles for car images */
+
 .car-image {
     width: 200px;
     height: 150px;
@@ -429,7 +429,7 @@ button.iconsDes i {
     justify-content: center;
     flex-direction: column;
     text-align: justify;
-    max-width: 1260px; /* Limit the width of the paragraph */
+    max-width: 1260px;
     & h3 {
         font-size: .9rem;
         font-weight: 200;

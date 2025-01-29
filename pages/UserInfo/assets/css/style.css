@@ -183,7 +183,7 @@ button.nav-design:hover {
 
 }
 
- /* Main Content */
+ /* Main */
 .main-content {
     margin-top: 9rem;
     background: rgba(2, 2, 2, 0.817);
@@ -253,7 +253,9 @@ main button {
 main button:hover {
     background-color: #d69900;
 }
-  /*Footer*/
+
+
+/* Footer */
 .feature1-footer {
 
     position: fixed;
@@ -312,7 +314,7 @@ button.iconsDes i {
     justify-content: center;
     flex-direction: column;
     text-align: justify;
-    max-width: 1260px; /* Limit the width of the paragraph */
+    max-width: 1260px;
     & h3 {
         font-size: .9rem;
         font-weight: 200;
@@ -339,5 +341,5 @@ button.iconsDes i {
     transform: scale(1.2);
     font-style: italic;
     font-weight: 400;
-}   
+}
 
