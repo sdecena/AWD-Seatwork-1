@@ -306,15 +306,15 @@ nav.header-navigation {
     }
 }
 
-.box1:hover, 
-.box2:hover, 
-.box3:hover, 
-.box4:hover, 
-.box5:hover, 
-.box6:hover, 
-.box7:hover, 
-.box8:hover, 
-.box9:hover, 
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover,
+.box5:hover,
+.box6:hover,
+.box7:hover,
+.box8:hover,
+.box9:hover,
 .box10:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 15px rgba(255, 255, 255, 0.596);
@@ -440,11 +440,11 @@ button.iconsDes i {
 
 
 .navigation2-footer p {
-    transition: all 3100ms ease;
+    transition: all 1000ms ease;
 }
 .navigation2-footer p:hover {
     transform: scale(1.1);
-    filter: drop-shadow(2px 2px 4px rgb(255, 255, 255));
+    filter: drop-shadow(22px 2px 4px rgb(255, 0, 0));
 }
 
 

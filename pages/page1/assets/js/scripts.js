@@ -4,20 +4,28 @@ document.querySelectorAll('.rent-button').forEach((button) => {
     // Prevent default behavior of anchor tag
     event.preventDefault();
 
-    // Get the car name and price from the corresponding parent element
+    // Check if the user information exists in local storage
+    const userInfo = JSON.parse(localStorage.getItem('userInfo'));
+
+
+
+    // Get the car name from the corresponding parent element
     const carElement = button.closest('div');
     const carName = carElement.querySelector('h3').textContent;
 
     // Check if the car is already rented
     const rentedCars = JSON.parse(localStorage.getItem('rentedCars')) || [];
     if (rentedCars.includes(carName)) {
-      alert(`The car "${carName}" is already rented!`);
+      alert(`The "${carName}" has just been rented! Try another vehicle.`);
     } else {
       // Add the car to the rented list and store it in local storage
       rentedCars.push(carName);
       localStorage.setItem('rentedCars', JSON.stringify(rentedCars));
 
-      alert(`Proceed to customer information to successfully rent ${carName}`);
+      // Store the current rented car separately to track which car should be removed if the user goes back
+      localStorage.setItem('currentRentedCar', carName);
+
+      alert(`Proceed to customer information to successfully rent "${carName}"`);
       // Redirect to the next page (if necessary)
       window.location.href = button.parentElement.getAttribute('href');
     }
@@ -31,4 +39,3 @@ document.querySelectorAll('.unavailable-button').forEach((button) => {
     alert('This car is already rented!');
   });
 });
-

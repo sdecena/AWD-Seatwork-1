@@ -7,18 +7,21 @@ document.addEventListener("DOMContentLoaded", function() {
     const contactNumberInput = document.querySelector("#contactNumber");
     const addressInput = document.querySelector("#address");
 
-    // Check if there's data already in local storage and populate the form
+    // Check if there's data already in local storage and populate the form with the last entry
     if (localStorage.getItem("userInfo")) {
-        const userInfo = JSON.parse(localStorage.getItem("userInfo"));
-        firstNameInput.value = userInfo.firstName;
-        lastNameInput.value = userInfo.lastName;
-        contactNumberInput.value = userInfo.contactNumber;
-        addressInput.value = userInfo.address;
+        const userInfoArray = JSON.parse(localStorage.getItem("userInfo"));
+        if (userInfoArray.length > 0) {
+            const lastUser = userInfoArray[userInfoArray.length - 1];  // Get the last submitted user info
+            firstNameInput.value = lastUser.firstName;
+            lastNameInput.value = lastUser.lastName;
+            contactNumberInput.value = lastUser.contactNumber;
+            addressInput.value = lastUser.address;
+        }
     }
 
     // Add event listener to handle form submission
     form.addEventListener("submit", function(event) {
-        event.preventDefault(); 
+        event.preventDefault();
 
         // Collect the user input values
         const userInfo = {
@@ -28,14 +31,41 @@ document.addEventListener("DOMContentLoaded", function() {
             address: addressInput.value
         };
 
-        // Save the data in local storage
-        localStorage.setItem("userInfo", JSON.stringify(userInfo));
+        // Get the current list of userInfo from localStorage, or initialize an empty array if not yet stored
+        const userInfoArray = JSON.parse(localStorage.getItem("userInfo")) || [];
+
+        // Add the new user info to the array
+        userInfoArray.push(userInfo);
+
+        // Save the updated list back to localStorage
+        localStorage.setItem("userInfo", JSON.stringify(userInfoArray));
 
         setTimeout(function() {
-            window.location.href = "../page1/index.html";
+            window.location.href = "../page1/index.html";  // Redirect to page 1 after saving
         }, 500);
 
         // Show an alert to the user
-        alert("CAR RENTED");
+        alert("Car rented successfully!");
+    });
+
+    // Select the "Back to Previous Page" link
+    const backButton = document.querySelector(".nav-design");
+    
+    // Add event listener to clear only the selected rented car when navigating back
+    backButton.addEventListener("click", function() {
+        // Get the list of rented cars from localStorage
+        let rentedCars = JSON.parse(localStorage.getItem("rentedCars")) || [];
+        
+        // Get the currently rented car from localStorage
+        const carName = localStorage.getItem("currentRentedCar");
+
+        // Remove only the selected rented car from the list
+        if (carName) {
+            rentedCars = rentedCars.filter(car => car !== carName);
+            localStorage.setItem("rentedCars", JSON.stringify(rentedCars));
+
+            // Remove the specific car reference from localStorage
+            localStorage.removeItem("currentRentedCar");
+        }
     });
 });

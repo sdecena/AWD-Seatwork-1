@@ -6,14 +6,14 @@
 <div align="center">
   <a href="https://github.com/sdecena/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/2x2.jpeg" alt="pic" width="130" height="130">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Seatwork 1</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Car Rental System
 </div>
 
 <br />
@@ -62,7 +62,7 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-This project is a Car Rental Management System designed to manage up to 10 cars. Its purpose is to showcase the process of renting and vehicle and check the availability of each vehicle for the customer.
+This project is a Car Rental Management System designed to manage up to 10 cars. Its purpose is to showcase the process of renting a vehicle and check the availability of each vehicle for the customer.
 
 Key Features:
 
@@ -78,18 +78,22 @@ Technologies Used:
 - CSS
 - Javascript
 
+
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - Hover Animation
 - Functional Buttons
-- Transactional
+- Alerts
+- Forms
+- Cars and User Info Stored in Local Storage
+- Multi-page
+
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -130,7 +134,7 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is | trykolang.com |
+|
 | Landing Page GIF | Used for the landing page background. | https://ca.pinterest.com/pin/146718900340223137/ |
 | Car 1 Image | Used for the Car 1 Image. | https://in.pinterest.com/pin/787567053576983703/ |
 | Car 2 Image | Used for the Car 2 Image. | https://toyotamakati.com.ph/vios/ |
@@ -145,3 +149,15 @@ WD-ProjectName
 | Main Page Background | Used for the Background Image of the Main Page. | https://unsplash.com/photos/a-parking-lot-filled-with-lots-of-parked-cars-PMsrwEVDaag |
 | Javascript Event for Buttons | Used to trigger events on buttons whenever an action is done | https://stackoverflow.com/questions/70856440/addeventlistener-to-all-buttons-using-foreach |
 
+
+
+
+
+## Documentation
+
+- 01/24: Created the landing page and header.
+- 01/25: Adjusted the header and created footer.
+- 01/26: Created the car rental page with the 10 cards of the vehicles. Also added animations on the rent button and hover for other elements.
+- 01/27: Added the customer information page that confirms the rental. Also implemented the javascript for the alerts and the local storage of the rented vehicles and user infos.
+- 01/28: Adjusted some of the javascript codes and the design of the website.
+- 01/29: Fixing some javascript errors and finishing README.
