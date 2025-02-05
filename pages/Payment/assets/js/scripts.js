@@ -15,27 +15,22 @@ paymentForm.addEventListener("submit", function(event) {
     const expiryDatePattern = /^(0[1-9]|1[0-2])\/\d{2}$/;
     const cvvPattern = /^[0-9]{3}$/;
 
-    const cardNumberPattern = /^[0-9]{16}$/; // 16 digits for card number
-    const expiryDatePattern = /^(0[1-9]|1[0-2])\/\d{2}$/; // MM/YY format for expiry date
-    const cvvPattern = /^[0-9]{3}$/; // 3 digits for CVV
+    
 
-    if (!cardNumber.match(cardNumberPattern) || !expiryDate.match(expiryDatePattern) || !cvv.match(cvvPattern)) {
-        alert("Please enter valid payment details.");
-    } else {
-        alert("Payment Successful! Thank you for renting with McQueen Car Rentals!");
+        // Check if inputs match the required patterns
+        if (!cardNumber.match(cardNumberPattern) || !expiryDate.match(expiryDatePattern) || !cvv.match(cvvPattern)) {
+            // Alert if any field is invalid
+            alert("Please enter valid payment details:\n- Card number: 16 digits with no spaces\n- Expiry date: MM/YY format\n- CVV: 3 digits");
+        } else {
+            // Simulate a successful payment if all inputs are valid
+            alert("Payment Successful! Thank you for renting with McQueen Car Rentals!");
 
-        const rentedCarId = localStorage.getItem("rentedCarId"); // Get the rented car ID
-
-        if (rentedCarId) {
-            // Store rented car ID in localStorage to mark it as unavailable on RentPage
-            localStorage.setItem("rentedCarId", rentedCarId);
+            // Redirect after payment (after a short delay to allow alert to show)
+            setTimeout(function() {
+                window.location.href = "../RentPage/index.html";
+            }, 500); // Redirect after 500ms
         }
-
-        setTimeout(function() {
-            window.location.href = "../RentPage/index.html"; // Redirect back to RentPage
-        }, 500); // Small delay for alert to show
-    }
-});
+    });
 
 
     backButton.addEventListener("click", function(event) {
