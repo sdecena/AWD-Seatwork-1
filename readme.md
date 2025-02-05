@@ -73,8 +73,6 @@ Key Features:
 - Payment Feature
 
 
-
-
 Technologies Used:
 
 - HTML

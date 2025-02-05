@@ -15,6 +15,10 @@ paymentForm.addEventListener("submit", function(event) {
     const expiryDatePattern = /^(0[1-9]|1[0-2])\/\d{2}$/;
     const cvvPattern = /^[0-9]{3}$/;
 
+    const cardNumberPattern = /^[0-9]{16}$/; // 16 digits for card number
+    const expiryDatePattern = /^(0[1-9]|1[0-2])\/\d{2}$/; // MM/YY format for expiry date
+    const cvvPattern = /^[0-9]{3}$/; // 3 digits for CVV
+
     if (!cardNumber.match(cardNumberPattern) || !expiryDate.match(expiryDatePattern) || !cvv.match(cvvPattern)) {
         alert("Please enter valid payment details.");
     } else {
