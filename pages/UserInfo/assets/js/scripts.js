@@ -37,13 +37,13 @@ document.addEventListener("DOMContentLoaded", function() {
         localStorage.setItem("userInfo", JSON.stringify(userInfoArray));
 
         setTimeout(function() {
-            window.location.href = "../RentPage/index.html";
+            window.location.href = "../Payment/index.html";
         }, 500);
 
         // Alert to the user
-        alert("Car rented successfully!");
+        alert("Proceed to payment");
     });
-
+    
 
     const backButton = document.querySelector(".nav-design");
 

@@ -70,6 +70,7 @@ Key Features:
 - Rental Status
 - User Interface
 - Validation
+- Payment Feature
 
 
 Technologies Used:
@@ -134,7 +135,7 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com | 
 | Landing Page GIF | Used for the landing page background. | https://ca.pinterest.com/pin/146718900340223137/ |
 | Car 1 Image | Used for the Car 1 Image. | https://in.pinterest.com/pin/787567053576983703/ |
 | Car 2 Image | Used for the Car 2 Image. | https://toyotamakati.com.ph/vios/ |
