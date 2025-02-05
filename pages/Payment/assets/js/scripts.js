@@ -17,20 +17,24 @@ paymentForm.addEventListener("submit", function(event) {
 
     
 
-        // Check if inputs match the required patterns
-        if (!cardNumber.match(cardNumberPattern) || !expiryDate.match(expiryDatePattern) || !cvv.match(cvvPattern)) {
-            // Alert if any field is invalid
-            alert("Please enter valid payment details:\n- Card number: 16 digits with no spaces\n- Expiry date: MM/YY format\n- CVV: 3 digits");
-        } else {
-            // Simulate a successful payment if all inputs are valid
-            alert("Payment Successful! Thank you for renting with McQueen Car Rentals!");
+    if (!cardNumber.match(cardNumberPattern) || !expiryDate.match(expiryDatePattern) || !cvv.match(cvvPattern)) {
+        // Alert if any field is invalid
+        alert("Please enter valid payment details:\n- Card number: 16 digits with no spaces\n- Expiry date: MM/YY format\n- CVV: 3 digits");
+    } else {
+        // Simulate a successful payment if all inputs are valid
+        alert("Payment Successful! Thank you for renting with McQueen Car Rentals!");
+        const rentedCarId = localStorage.getItem("rentedCarId"); // Get the rented car ID
 
-            // Redirect after payment (after a short delay to allow alert to show)
-            setTimeout(function() {
-                window.location.href = "../RentPage/index.html";
-            }, 500); // Redirect after 500ms
+        if (rentedCarId) {
+            // Store rented car ID in localStorage to mark it as unavailable on RentPage
+            localStorage.setItem("rentedCarId", rentedCarId);
         }
-    });
+
+        setTimeout(function() {
+            window.location.href = "../RentPage/index.html"; // Redirect back to RentPage
+        }, 500); // Small delay for alert to show
+    }
+});
 
 
     backButton.addEventListener("click", function(event) {
