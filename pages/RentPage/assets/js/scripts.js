@@ -19,7 +19,7 @@ document.querySelectorAll('.rent-button').forEach((button) => {
       rentedCars.push(carName);
       localStorage.setItem('rentedCars', JSON.stringify(rentedCars));
 
-      // Store the current rented car to track which car should be removed when the user goes back
+      
       localStorage.setItem('currentRentedCar', carName);
 
       alert(`Proceed to customer information to successfully rent "${carName}"`);
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 button.classList.remove('rent-button');
                 button.classList.add('unavailable-button');
                 button.textContent = 'Car Rented'; // Update the button text
-                button.disabled = true; // Optionally disable the button so it can't be clicked again
+                button.disabled = true; 
             }
         });
     }

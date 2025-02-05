@@ -34,7 +34,6 @@ paymentForm.addEventListener("submit", function(event) {
 });
 
 
-    // Handle back button click to clear current user info from local storage and redirect to UserInfo page
     backButton.addEventListener("click", function(event) {
         event.preventDefault(); // Prevent the default link behavior
 
@@ -52,7 +51,7 @@ paymentForm.addEventListener("submit", function(event) {
         window.location.href = "../UserInfo/index.html";
     });
 
-    // Function to update the RentPage and mark the rented car as unavailable
+
     function updateRentPage(carId) {
         // Get the rent buttons for each car
         const rentButtons = document.querySelectorAll('.rent-button');
@@ -64,7 +63,7 @@ paymentForm.addEventListener("submit", function(event) {
                 button.classList.remove('rent-button');
                 button.classList.add('unavailable-button');
                 button.textContent = 'Car Rented'; // Update the button text
-                button.disabled = true; // Optionally disable the button so it can't be clicked again
+                button.disabled = true; 
             }
         });
     }
