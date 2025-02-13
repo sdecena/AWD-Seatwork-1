@@ -171,4 +171,4 @@ https://sdecena.github.io/AWD-Seatwork-1-2-DS-25/
 - 01/28: Adjusted some of the javascript codes and the design of the website.
 - 01/29: Fix some javascript errors and finishing README.
 
--02/13: Resubmitted for the updated version of the rent buttons
+-02/13: Resubmitted for the updated version of the rent buttons.

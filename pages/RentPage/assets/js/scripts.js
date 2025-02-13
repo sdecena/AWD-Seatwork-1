@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
           localStorage.setItem('currentRentedCar', carName);
 
           // Update button to indicate rental
-          button.textContent = "Car Rented";
+          button.textContent = "Renting...";
           button.classList.add("unavailable-button");
           button.disabled = true;
 
